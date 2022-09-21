@@ -18,13 +18,15 @@ if (a<100)
 {
     Console.WriteLine($"Число {a} меньше 100");
 }
-while (a > 999)
+if (a > 100)
 {
-    a = a/10;
-}
+    while (a > 999)
+    {
+        a = a/10;
+    }
     a = a%10;
     Console.WriteLine($"Число на третьей позиции = {a}");
-
+}
 
 
 
